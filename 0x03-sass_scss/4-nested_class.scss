@@ -1,9 +1,7 @@
 /* Nested */
-$color_body: #3D3D3D;
-$color_class: #FF0000;
 body {
-    color: $color_body;
-    & .red {
-        margin: $color_class;
+    color: #3D3D3D;
+    .red {
+        margin: #FF0000;
     }
 }
